@@ -1,0 +1,69 @@
+const networksDetail = 
+{
+    "0x1":{
+        "rpcs":[
+            "https://www.ethereum.org/"
+        ],
+        "blockExplorers":[
+            "https://etherscan.io/tx/",
+            "https://etherscan.io/address/",
+            "https://blockscout.com/eth/mainnet/tx/",
+            "https://blockscout.com/eth/mainnet/address/"
+        ],
+        "name":"Ethereum",
+        "symbol":"ETH",
+        "web":"https://www.ethereum.org/",
+        "logo":"./assets/images/ethlogo.png"
+    },
+    "0x25":{
+        "rpcs":[
+            "https://evm-cronos.crypto.org/"
+        ],
+        "blockExplorers":[
+            "https://cronos.crypto.org/explorer/",
+            "https://etherscan.io/address/"
+        ],
+        "name":"Cronos",
+        "symbol":"CRO",
+        "web":"https://evm-cronos.crypto.org/",
+        "logo":"./assets/images/crologo.png"
+    },
+    "0x137":{
+        "rpcs":[
+            "https://rpc-mainnet.matic.network"
+        ],
+        "blockExplorers":[
+            "https://polygonscan.com/"
+        ],
+        "name":"Polygon Network",
+        "symbol":"MATIC",
+        "web":"https://polygon.technology/",
+        "logo":"./assets/images/polygonlogo.png"
+    },
+    "0x250":{
+        "rpcs":[
+            "https://rpc.ftm.tools/"
+        ],
+        "blockExplorers":[
+            "https://ftmscan.com/"
+        ],
+        "name":"Fantom",
+        "symbol":"FTM",
+        "web":"https://fantom.foundation/",
+        "logo":"./assets/images/logos/ftmlogo.png"
+    },
+    "0x43114":{
+        "rpcs":[
+            "https://api.avax.network/ext/bc/C/rpc"
+        ],
+        "blockExplorers":[
+            "https://snowtrace.io/"
+        ],
+        "name":"Avalanche",
+        "symbol":"AVAX",
+        "web":"https://avax.network/",
+        "logo":"./assets/logos/avalanchelogo.png"
+    }
+}
+    
+export { networksDetail };
