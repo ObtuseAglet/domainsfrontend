@@ -16,6 +16,7 @@
     "eth-rpc-errors": "^4.0.3",
     "ethcall": "^4.4.0",
     "ethers": "^5.5.4",
+    "export.js": "^1.0.0-alpha.1",
     "hash-base": "^3.1.0",
     "image-js": "^0.33.2",
     "metamask-react": "^2.3.0",
